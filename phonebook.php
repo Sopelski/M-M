@@ -24,6 +24,7 @@ if($rows){
     
     echo 'ID: ' . $row['id'] . '<br>';         
 	echo 'Name: ' . $row['name'] . '<br>';
+    echo '<a href="/teb/phonebookrecord.php?id=' . $row['id'] . '">6</a><br/>';
 }
 
 }
